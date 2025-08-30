@@ -1,14 +1,11 @@
-# Projeto: (substitua pelo nome do projeto quando estiver definido)
+# Projeto: Análise de padrões de consumo a partir de avalições da Amazon
 
-## Equipe: (substitua pelo nome da equipe)
+## Equipe: sin(arg)^0
 
-## Descrição: (descreva seu projeto quando estiver definido)
+## Descrição: Descobrimento de temas latentes em reviews de produtos da Amazon para inferência de nichos de consumo. Isso será feito a partir de uma análise dos textos de avaliação dos produtos para determinar os temas relacionados ao produto em si. Em seguida os temas inferidos serão associados  ao usuário que enviou a avaliação como um tópico de interesse. A partir disso, deve-se determinar quais usuários são próximos ou têm interesses em comum, assim definindo um nicho de consumo.
 
-## Membros: (liste os membros informando nome, RA, login gitlab, curso, universidade. siga o exemplo abaixo)
+## Membros: 
 
-Nome Membro 01, RA_Membro_01, login_membro_01, BSI, UTFPR
+Antonio Carlos Farias Ferreira, 2413868, antfer, BSI, UTFPR
 
-Nome Membro 02, RA_Membro_02, login_membro_02, EC, UTFPR
-
-Nome Membro 03, RA_Membro_03, login_membro_03, PPGCA, UTFPR
 
