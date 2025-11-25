@@ -8,11 +8,11 @@ Este repositório contém a implementação da pesquisa realizada como parte da 
 
 Em sistemas de recomendação, entender o comportamento do usuário e os fatores que influenciam suas escolhas é essencial para gerar recomendações precisas e personalizadas. O trabalho foi motivado pela necessidade de desenvolver um modelo de recomendação mais eficiente, utilizando dados de avaliações de usuários da Amazon, especificamente na categoria de **Filmes e TV**.
 
-Para isso, a pesquisa combina técnicas de **modelagem de tópicos** com **perfilamento de usuários** e **predição de consumo futuro**. Com isso, buscamos extrair padrões de comportamento e melhorar as recomendações de produtos baseadas nas preferências individuais dos usuários.
+Para isso, a pesquisa combina técnicas de **modelagem de tópicos** com **perfilamento de usuários** e **predição de consumo futuro**. Com isso, busquei extrair padrões de comportamento e melhorar as recomendações de produtos baseadas nas preferências individuais dos usuários.
 
 ### Modelo de Dados Utilizado
 
-Para a análise, utilizamos o **conjunto de dados de reviews e produtos da Amazon** (Ni, Li e McAuley, 2019), que inclui avaliações de **filmes e produtos de TV**. A partir desses dados, o modelo se concentra em identificar quais tópicos estão presentes nas descrições dos produtos e como esses tópicos se relacionam com o comportamento de consumo dos usuários.
+Para a análise, utilizei o **conjunto de dados de reviews e produtos da Amazon** (Ni, Li e McAuley, 2019), que inclui avaliações de **filmes e produtos de TV**. A partir desses dados, o modelo se concentra em identificar quais tópicos estão presentes nas descrições dos produtos e como esses tópicos se relacionam com o comportamento de consumo dos usuários.
 
 ## Metodologia
 
@@ -34,7 +34,7 @@ Após a modelagem de tópicos, o próximo passo foi construir **perfís de usuá
 
 ### 3. **Predição de Consumo Futuro**
 
-Para testar a capacidade de **prever o consumo futuro de produtos**, aplicamos três modelos de **fatoração matricial**: **ALS (Alternating Least Squares)**, **SVD (Singular Value Decomposition)** e **NMF (Non-negative Matrix Factorization)**. Esses modelos foram treinados para prever quais produtos o usuário poderia consumir com base em seus tópicos de interesse.
+Para testar a capacidade de **prever o consumo futuro de produtos**, apliquei três modelos de **fatoração matricial**: **ALS (Alternating Least Squares)**, **SVD (Singular Value Decomposition)** e **NMF (Non-negative Matrix Factorization)**. Esses modelos foram treinados para prever quais produtos o usuário poderia consumir com base em seus tópicos de interesse.
 
 - **Modelos Utilizados:** **ALS**, **SVD** e **NMF**.
 - **Métrica de Avaliação:** **NMAE (Normalized Mean Absolute Error)** para avaliar o erro de predição.
