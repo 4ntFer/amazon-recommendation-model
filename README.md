@@ -3,6 +3,7 @@
 Este repositório contém a implementação da pesquisa realizada como parte da disciplina **Ciência de Dados 2** do **Programa de Pós-Graduação em Computação Aplicada da UTFPR (PPGCA)**. O objetivo principal foi explorar a descoberta de temas latentes nas descrições de produtos da **Amazon** (nas categorias **Filmes e TV**) e entender como esses temas influenciam o comportamento de consumo dos usuários. A partir dessa análise, foi possível construir **perfís de consumidores** e usar esses perfis para prever o consumo de **novos produtos**.
 
 - [Clique para visualizar a apresentação dos resultado de pesquisa](https://github.com/4ntFer/amazon-recommendation-model/blob/main/04%20-%20Pesquisa/Apresenta%C3%A7%C3%A3o.pdf)
+- [Clique para visualizar o arigo que relata a pesquisa](https://github.com/4ntFer/amazon-recommendation-model/blob/main/05%20-%20Resultados%20finais/artigo.pdf)
 
 ## Motivação
 
